@@ -60,6 +60,12 @@ async def auto_filter(bot, update):
     filters = await db.get_filters(group_id, query)
     
     if filters:
+        results.append(
+                [
+                    InlineKeyboardButton("☮ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ☮", url="https://t.me/joinchat/Ne7DL6mJ2nA0ZTNl"),
+                    InlineKeyboardButton("☮ 𝙝𝙙 𝙢𝙤𝙫𝙞𝙚𝙨 ☮", url="https://t.me/joinchat/CXRICR1ok3ViZjk9"),
+                ]
+            )
         for filter in filters: # iterating through each files
             file_name = filter.get("file_name")
             file_type = filter.get("file_type")
