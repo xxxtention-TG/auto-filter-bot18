@@ -29,7 +29,7 @@ async def start(bot, update):
                 file_id,
                 quote=True,
                 caption = f"<b>{file_name}</b>\n \n<b>┈••✿ @MOVIESWORLD52 ✿••┈</b>\n \n<b>➠𝐂ʜᴀɴɴᴇʟ :https://t.me/joinchat/WjcMRPNkHJAxZDk1</b>\n \n<b>
-➠𝐂ʜᴀɴɴᴇʟ :https://t.me/joinchat/5svxDEOhivFmZWQ9",
+➠𝐂ʜᴀɴɴᴇʟ :https://t.me/joinchat/5svxDEOhivFmZWQ9</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
