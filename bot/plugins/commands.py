@@ -62,9 +62,9 @@ async def start(bot, update):
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await bot.send_photo(
+    await bot.send_vedio(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/a6464a15604b867310f03.jpg",
+        vedio="https://telegra.ph/file/c69f27daf9873fd3e6dc9.mp4",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
