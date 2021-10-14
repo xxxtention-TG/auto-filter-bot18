@@ -45,7 +45,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"<b>{file_name}</b>\n \n<b>┈••✿ @MOVIESWORLD52 ✿••┈</b>\n \n<b>➠𝐂ʜᴀɴɴᴇʟ : @MOVIESWORLD54</b>",
+                caption = f"<b>{file_name}</b>\n \n<b>┈••✿ @MOVIESWORLD52 ✿••┈</b>\n \n<b>➠𝐂ʜᴀɴɴᴇʟ : https://t.me/joinchat/Xr-vil0sYk85NWM1</b>\n \n<b>➠𝐂ʜᴀɴɴᴇʟ : https://t.me/joinchat/WjcMRPNkHJAxZDk1</b>",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -59,6 +59,10 @@ async def start(bot, update):
                             InlineKeyboardButton
                                 (
                                     '⚠️ 𝖩𝖮𝖨𝖭', url="https://t.me/MOVIESWORLD54"
+                                ),
+                            InlineKeyboardButton
+                                (
+                                    '⚠️ 𝖩𝖮𝖨𝖭', url="https://t.me/MOVIESWORLD59"
                                 )
                         ] 
                     ]
